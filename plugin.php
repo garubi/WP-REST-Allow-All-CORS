@@ -32,6 +32,10 @@ function wp_rest_allow_all_cors() {
 		header( 'Access-Control-Allow-Origin: *' );
 		header( 'Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE' );
 		header( 'Access-Control-Allow-Credentials: true' );
+		if ( 'OPTIONS' == $_SERVER['REQUEST_METHOD'] ) {
+		    status_header(200);
+		    exit();
+		}
 		return $value;
 	});
 } // End fucntion wp_rest_allow_all_cors().
