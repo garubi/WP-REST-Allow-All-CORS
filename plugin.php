@@ -1,15 +1,12 @@
 <?php
 /**
  * Plugin Name: WP-REST-Allow-All-CORS
- * Plugin URI: http://AhmadAwais.com/
- * Description: Allow all cross origin requests to your WordPress site's REST API.
- * Author: mrahmadawais, WPTie
- * Author URI: http://AhmadAwais.com/
- * Version: 1.0.0
+ * Description: Allow all cross origin requests to your WordPress site's REST API and reply with HTTP STATUS 200 to OPTIONS requests.
+ * Author: mrahmadawais, WPTie, garubi
+ * Version: 2.0.0 beta
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
- * @package WPRAC
  */
 
 // Exit if accessed directly.
