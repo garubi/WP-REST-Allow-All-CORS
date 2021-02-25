@@ -3,7 +3,7 @@
  * Plugin Name: WP-REST-Allow-All-CORS
  * Description: Allow all cross origin requests to your WordPress site's REST API and reply with HTTP STATUS 200 to OPTIONS requests.
  * Author: mrahmadawais, WPTie, garubi
- * Version: 2.0.0 beta
+ * Version: 2.0.0
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * GitHub Plugin URI: https://github.com/garubi/WP-REST-Allow-All-CORS
